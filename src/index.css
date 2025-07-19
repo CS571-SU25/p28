@@ -54,6 +54,14 @@ button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
 
+.my-card {
+  background-color: var(--bs-primary);
+  color: white;
+  height: 100%;
+  text-align: center;
+  padding: 1rem;
+}
+
 @media (prefers-color-scheme: light) {
   :root {
     color: #213547;
